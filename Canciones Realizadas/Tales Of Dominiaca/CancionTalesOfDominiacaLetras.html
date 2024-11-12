@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil Nas Web / Canciones / TalesOfDominiaca / Letra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+        window.addEventListener('beforeunload', function () {
+  var audio = document.getElementById('myAudio');
+  audio.pause();
+  localStorage.setItem('audioTime', audio.currentTime);
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var audio = document.getElementById('myAudio');
+  var storedTime = localStorage.getItem('audioTime');
+  if (storedTime) {
+    audio.currentTime = parseFloat(storedTime);
+  }
+  audio.play();
+});
+
+  </script>
+</head>
+<body>
+
+    <div class="navInvisible">
+
+    </div>
+    
+    <nav> 
+
+    <div class="menu_izquierda">
+        <button>  <img src="../.././Proyecto Página/Logo.png" alt="" class="imagen_menu"> </button>
+    </div>
+
+    <div class="menu_derecha">
+        <button>  <a href="../../Canciones.html"><img src="../.././Proyecto Página/CancionesTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/InicioTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/MenuTXT.png" alt="" class="imagen_menu"></a> </button>
+    </div>
+    
+    </nav>
+
+    <header> 
+    
+        <div>    
+            <video controls autoplay loop id="myAudio" class="video_otra_pagina">
+                <source src="../.././Canciones/(y2save.net) Lil Nas X TALES OF DOMINICA.mp4" type="video/mp4">
+                <source src="../.././Canciones/(y2save.net) Lil Nas X TALES OF DOMINICA.mp4" type="video/webm">
+            </video>
+        </div>
+
+        <div class="table_video">
+            
+            
+            <div class="tabla_arriba">
+                <div class="links">
+                    <div class="boton"> <a href="CancionTalesOfDominiacaVideo.html"><button> VIDEO </button></a> </div>
+                    <div class="boton" > <button id="boton_check"> LETRA </button> </div>
+                    <div class="boton"> <a href="CancionTalesOfDominiacaDatosCuriosos.html"><button> DATOS <br> CURIOSOS </button></a> </div>
+                </div>
+            </div>
+        
+            <div class="tablas_abajo">
+                <div class="foto_cancion">
+
+                    <img src="../.././Fotos/TalesOfDominica.jpg" alt="" class="foto_cancion_"><br>
+                    
+                    <div class="nombreCancion_artistas">
+                    <p> Tales Of Dominiaca <br> LIL NAS X </p>
+                    </div>
+
+                </div>
+                
+
+                <div class="letra_cancion">
+                    <p>
+                        Woke up on the floor<br>
+                        Oh, this plastic bed don't blow up no more<br>
+                        In this broken home<br>
+                        Everyone becomes predictable<br><br>
+
+                        Oh, sometimes you're angry<br>
+                        Sometimes you're hurting<br>
+                        Sometimes you're all alone<br>
+                        Sometimes I'm anxious<br>
+                        Sometimes it makes me<br>
+                        Feel like there's only now<br><br>
+
+                        I've been living in my lowest, it's safe to say<br>
+                        Hope my little bit of hope don't fade away<br>
+                        I've been living on an island made from fate<br>
+                        Can't go running back to home, I can't face her face (oh)<br><br>
+
+                        Oh, finally grown, ain't nothing like I hoped it would be<br>
+                        Out on my own, I'm floating in an ocean-less sea<br>
+                        Could I be wrong? Was everybody right about me?<br>
+                        Scary things in my head, I can't dream and I just<br><br>
+
+                        Woke up on the floor<br>
+                        Oh, this plastic bed don't blow up no more (oh)<br>
+                        In this broken home<br>
+                        Everyone becomes predictable<br><br>
+
+                        Oh, sometimes you're angry<br>
+                        Sometimes you're hurting<br>
+                        Sometimes you're all alone<br>
+                        Sometimes I'm anxious<br>
+                        Sometimes it makes me<br>
+                        Feel like there's only now<br><br>
+
+                        I've been living in my lowest, it's safe to say<br>
+                        Hope my little bit of hope, don't fade away<br>
+                        I've been living on an island made from fate<br>
+                        Can't go running back to home, I can't face her face<br><br>
+                        Ooh<br>
+                        Ooh<br>
+                    </p>
+                </div>
+
+          </div>
+        </div>
+
+
+    </header>
+
+
+    <footer>
+        <p class="textoPoliticPriv">
+            © 2023 Sony Music Entertainment | Terms and Conditions|Privacy Policy | How We Use Your Data | Do Not Sell My Personal Information | Your California Privacy Rights|Send Feedback
+        </p>
+        <div class="link_footer">
+            <a href="https://www.instagram.com/lilnasx/" ><img src="../../Proyecto Página/Instagram.png" alt="" class="fotito_link"></a>
+            <a href="https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq" ><img src="../../Proyecto Página/Spotify.png" alt="" class="fotito_link"></a>
+            <a href="https://www.youtube.com/channel/UC_uMv3bNXwapHl8Dzf2p01Q" ><img src="../../Proyecto Página/Youtube.png" alt="" class="fotito_link"></a>
+            <a href="https://www.tiktok.com/@lilnasx?lang=es" ><img src="../../Proyecto Página/TikTok.png" alt="" class="fotito_link"></a>
+            <a href="https://twitter.com/LilNasX" ><img src="../../Proyecto Página/Twitter.png" alt="" class="fotito_link"></a>
+        </div>
+    </footer>
+</body>
+</html>

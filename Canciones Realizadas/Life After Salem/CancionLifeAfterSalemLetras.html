@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil Nas Web / Canciones/LifeAfterSalem/Letra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+        window.addEventListener('beforeunload', function () {
+  var audio = document.getElementById('myAudio');
+  audio.pause();
+  localStorage.setItem('audioTime', audio.currentTime);
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var audio = document.getElementById('myAudio');
+  var storedTime = localStorage.getItem('audioTime');
+  if (storedTime) {
+    audio.currentTime = parseFloat(storedTime);
+  }
+  audio.play();
+});
+
+  </script>
+</head>
+<body>
+
+    <div class="navInvisible">
+
+    </div>
+    
+    <nav> 
+
+    <div class="menu_izquierda">
+        <button>  <img src="../.././Proyecto Página/Logo.png" alt="" class="imagen_menu"> </button>
+    </div>
+
+    <div class="menu_derecha">
+        <button>  <a href="../../Canciones.html"><img src="../.././Proyecto Página/CancionesTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/InicioTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/MenuTXT.png" alt="" class="imagen_menu"></a> </button>
+    </div>
+    
+    </nav>
+
+    <header> 
+    
+        <div>    
+            <video controls autoplay loop id="myAudio" class="video_otra_pagina">
+                <source src="../.././Canciones/(y2save.net) Lil Nas X LIFE AFTER SALEM.mp4" type="video/mp4">
+                <source src="../.././Canciones/(y2save.net) Lil Nas X LIFE AFTER SALEM.mp4" type="video/webm">
+            </video>
+        </div>>
+
+        <div class="table_video">
+            
+            
+            <div class="tabla_arriba">
+                <div class="links">
+                    <div class="boton"> <a href="CancionLifeAfterSalemVideo.html"><button> VIDEO </button></a> </div>
+                    <div class="boton" > <button id="boton_check"> LETRA </button> </div>
+                    <div class="boton"> <a href="CancionLifeAfterSalemDatosCuriosos.html"><button> DATOS <br> CURIOSOS </button></a> </div>
+                </div>
+            </div>
+        
+            <div class="tablas_abajo">
+                <div class="foto_cancion">
+
+                    <img src="../.././Fotos/LifeAfterSalem.jpg" alt="" class="foto_cancion_"><br>
+                    
+                    <div class="nombreCancion_artistas">
+                    <p> SCOOP <br> LIL NAS X & Doja Cat </p>
+                    </div>
+
+                </div>
+                
+
+                <div class="letra_cancion">
+                    <p>
+                        All of my feelings are gone<br>
+                        I left them all on the floor<br>
+                        Man, who's to blame if you don't love me no more?<br>
+                        No, I don't mind, just take whatever you want<br><br>
+
+                        Why don't you just take what you want from me?<br>
+                        I think you should take what you want and leave<br>
+                        Why don't you just take what you want from me?<br>
+                        I think you should take what you want and leave<br><br>
+
+                        What you want from me? Yeah<br>
+                        What you want from me? Yeah<br><br>
+
+                        Get yourself an Adderall<br>
+                        And throw me up against the wall<br>
+                        And kick me when I have to crawl<br>
+                        Ooh, I love it when you show no love at all<br>
+                        You know I can be your part-time lover<br>
+                        Our scars, they'll dance with each other<br>
+                        I can be your part-time lover<br>
+                        Our scars, they'll dance with each other<br><br>
+
+                        Why don't you just take what you want from me?<br>
+                        I think you should take what you want and leave<br>
+                        Why don't you just take what you want from me?<br>
+                        I think you should take what you want and leave<br><br>
+
+                        What you want from me? Yeah<br>
+                        What you want from me? Yeah<br><br>
+
+                        You're changin' (you're changin' every day)<br>
+                        You played me (I let you win again)<br>
+                        You're changin' (you're changin' every day)<br>
+                        And you're takin' (you're takin' everything)<br>
+                    </p>
+                </div>
+
+          </div>
+        </div>
+
+
+    </header>
+
+
+    <footer>
+        <p class="textoPoliticPriv">
+            © 2023 Sony Music Entertainment | Terms and Conditions|Privacy Policy | How We Use Your Data | Do Not Sell My Personal Information | Your California Privacy Rights|Send Feedback
+        </p>
+        <div class="link_footer">
+            <a href="https://www.instagram.com/lilnasx/" ><img src="../../Proyecto Página/Instagram.png" alt="" class="fotito_link"></a>
+            <a href="https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq" ><img src="../../Proyecto Página/Spotify.png" alt="" class="fotito_link"></a>
+            <a href="https://www.youtube.com/channel/UC_uMv3bNXwapHl8Dzf2p01Q" ><img src="../../Proyecto Página/Youtube.png" alt="" class="fotito_link"></a>
+            <a href="https://www.tiktok.com/@lilnasx?lang=es" ><img src="../../Proyecto Página/TikTok.png" alt="" class="fotito_link"></a>
+            <a href="https://twitter.com/LilNasX" ><img src="../../Proyecto Página/Twitter.png" alt="" class="fotito_link"></a>
+        </div>
+    </footer>
+</body>
+</html>

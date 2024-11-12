@@ -1,0 +1,985 @@
+body
+{
+    margin:0;
+    height: 600px;
+    background-color: black;
+}
+
+nav
+{
+    display:flex;
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.navInvisible
+{
+    height: 20vh;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
+.imagen_menu1
+{
+    display: flex;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* estándar */
+    align-items: center;
+    width: 28vh;
+    height: 9.6vh;
+}
+
+.imagen_menu2
+{
+    display: flex;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* estándar */
+    align-items: center;
+    width: 35vh;
+    height: 10vh;
+}
+
+.imagen_menu3
+{
+    display: flex;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* estándar */
+    align-items: center;
+    width: 18vh;
+    height: 10vh;
+}
+
+.menu_derecha
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+    margin-left:80vh;
+}
+
+.menu_izquierda
+{
+    display: flex;
+    width: 30%;
+    margin-left: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.header_foto
+{
+    width: 100%;
+    height: 90vh;
+    margin:0;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* estándar */
+}
+
+.table
+{
+    background-color: black;
+    width: 100vh;
+    height: 65vh;
+    position: absolute;
+    z-index: 1;
+    top:26%;
+    left:29%;
+    border: 3px solid rgba(251,123,246,255);
+    border-radius: 10px;
+}
+
+
+
+p
+{
+    color: aliceblue;
+}
+
+button
+{
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    border: black solid 1px;
+    padding: 7px 10px;
+    font-size: 18px;
+}
+
+button:hover
+{
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px;
+    background-color: rgb(56, 56, 56);
+
+}
+ 
+
+.textoPoliticPriv
+{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+#boton_check
+{
+    color: rgba(251,123,246,255);
+    border-bottom: 2px solid rgb(251, 123, 246);
+}
+    
+.foto_cancion
+{
+    margin-top: 1.3%;
+    margin-left: 8%;
+    width: 75%;
+    height: 68%;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* estándar */
+    border-radius: 10%;
+    border: 3px solid white ;
+}
+
+.nombreCancion_artistas
+{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    width: 90%;
+}
+
+.letra_cancion
+{
+    margin-left: 6%;
+    margin-top: 0.1%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 140%;
+    font-size:15px;
+}
+
+.datos_curiosos ul
+{
+    margin-right: 230px;
+    margin-top: 0.1%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 140%;
+    font-size:15px;
+}
+
+
+.links
+{
+    width: 100%;
+}
+
+.links button
+{
+    display: flex;
+    color: rgb(251, 123, 246);
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0;
+}
+
+.links button:hover
+{
+    color: rgb(251, 123, 246);
+    background-color: rgb(56, 56, 56)   ;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.tabla_arriba
+{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+}
+
+.boton
+{
+    width: 33%;
+    height: 60px;
+    border-radius: 6vh;
+    text-decoration: none;
+}
+
+.links
+{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+}
+
+.tablas_abajo
+{
+    display: flex;
+}
+
+.video
+{
+    position: absolute;
+    bottom: 4px;
+    left: 3%;
+}
+
+video
+{
+    width: 97%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_canciones
+{
+    height: 160vh;
+    width: 250vh;
+    background-color: white;
+    top: 0;
+    position: absolute;
+}
+
+.cancion
+{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 0px 40px;
+}
+
+.cancion_foto
+{
+    border-radius: 100%;
+    border: 2px solid  black ;
+    width: 150px;
+    height: 150px;
+    top: 0;
+}
+
+
+.fila_canciones
+{
+    display: flex;
+    margin-top: 0;
+    margin-left: 4.5%;
+    padding: 70px 0px;
+}
+
+.footer_bug_canciones
+{
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    margin:0;
+
+}
+
+.header_LilNasX
+{
+    height:110vh;
+    width: 100%;
+    background-color: white;
+}
+
+
+.AlbumMontero_Foto
+{
+    width: 100%;
+    height: 200px;
+    border: black solid 3px;
+    border-radius: 10%;
+    margin-top: 0;
+    position:sticky;
+}
+
+
+.Album7_Foto
+{
+    width: 100%;
+    height: 200px;
+    border: black solid 3px;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+
+.Albumes_LilNasX
+{
+    height: 85%;
+    width: 15%;
+    margin-left: 8%;
+
+}
+
+h2
+{
+    margin-left: 40%;
+    margin-top:40%;
+    margin-top:0;
+    margin-left: 0;
+    text-align: center;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke: 2px black; /* Para navegadores basados en WebKit, como Chrome y Safari */
+    text-stroke: 2px black; /* Para navegadores que siguen el estándar CSS */
+}
+
+
+
+.Header_LilNasXReal
+{
+    position: absolute;
+    top: 23%;
+    width: 100%;
+    border-right: 5px solid black;
+    background-color: black ;
+}
+
+
+.linea
+{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 0.4%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+
+#header_LilNasX
+{
+    height:121.6vh;
+    width: 100%;
+    background-color: black;
+}
+
+.footer_bug_LilNasX
+{
+    height:20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Albumes
+{
+    overflow: auto;
+    margin-top: -5%;
+    margin-left: 0%;
+    text-align: center;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    -webkit-text-stroke: 2px black; /* Para navegadores basados en WebKit, como Chrome y Safari */
+    text-stroke: 2px black; /* Para navegadores que siguen el estándar CSS */
+    color: rgb(253, 253, 82);
+}
+
+
+.AlbumMontero_Foto
+{
+    color: rgb(253, 253, 82);
+    width: 75%;
+    height:30%;
+    border: black solid 3px;
+    border-radius: 10%;
+    margin-left: 10%;
+}
+
+
+.Album7_Foto
+{
+    color: rgb(253, 253, 82);
+    width: 75%;
+    height: 30%;
+    border: black solid 3px;
+    border-radius: 10%;
+    margin-top: 5%;
+    overflow: auto;
+    margin-left: 10%;
+}
+
+.Albumes_LilNasX
+{
+    overflow-y: auto;
+    color: rgb(253, 253, 82);
+    position: absolute;
+    top: 23%;
+    left: -5%;
+    padding: 0px 100px 0px 0px;
+    height: 109%;
+    width: 20%;
+    border-radius: 5px;
+}
+
+h2
+{
+    overflow: auto;
+    margin-left: 60%;
+    margin-top:40%;
+    margin-top:0;
+    margin-left: 10%;
+    text-align: center;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(253, 253, 82);
+    font-size: 40px;
+    -webkit-text-stroke: 2px black; /* Para navegadores basados en WebKit, como Chrome y Safari */
+    text-stroke: 2px black; /* Para navegadores que siguen el estándar CSS */
+}
+
+
+.cont_LilNasX
+{
+    position: absolute;
+    border-radius: 10px;
+    width: 29%;
+    height: 40%;
+    top: 26%;
+    right: 7%;
+}
+
+.p_textito
+{
+    padding: 0%  10% 0% 10%;
+    width: 80%;
+    overflow: auto;
+    color: rgb(253, 253, 82);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.siete
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: -12%;
+}
+
+.cont.montero
+{
+    overflow: auto;
+    height: 10%;
+    width: 100%;
+}
+
+.montero
+{
+    color: rgb(253, 253, 82);
+    margin-left: -4%;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width:0px; /* Ancho de la barra de desplazamiento */
+    height: 2px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #2e2d2d; /* Color de fondo de la pista de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(253, 253, 82); /* Color del pulgar (parte arrastrable) de la barra de desplazamiento */
+  }
+
+.LilNasX
+{
+    margin-top: 8%;
+    margin-right: 5%;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    border: black solid 3px;
+}
+
+.LilNasFoto
+{
+    width: 2%;
+    height: 40%;
+    position: absolute;
+    top: 2%;
+    left: 70%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.texto_LilNasX_1
+{
+    background-color: black;
+    opacity: 80%;
+    position: absolute;
+    top: 29.6%;
+    left: 28%;
+    width: 35%;
+    height: 44vh;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.texto_LilNasX_2
+{
+    background-color: black;
+    opacity: 80%;
+    position: absolute;
+    top: 78%;
+    left: 28%;
+    width: 65%;
+    height: 50vh;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.p_textito_lilNas
+{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin: auto;
+    width: 80%;
+    padding: 5%;
+    text-align: justify;
+    color: rgb(253, 253, 82);
+}
+
+.p_textito_lilNas2
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'nasxTrebuchet MS', sans-serif ;
+    margin: auto;
+    width: 90%;
+    padding: 3%;
+    text-align: justify;
+    color: rgb(253, 253, 82);
+}
+
+#header_LilNasX_celular
+{
+    width: 10%;
+    height: 10%;
+    display: none;
+}
+
+
+@media only screen and (max-device-width: 600px) {
+
+
+    nav .menu_derecha
+    {
+        display: flex;
+        justify-content: none;
+    }
+
+    nav .botonDos
+    {
+        margin-right:-370px;
+    }
+
+    button
+    {
+        width: 10%;
+        height: 25%;
+    }
+
+    .montero
+    {
+        font-size: 27px;
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        margin-bottom:20px ;
+    }
+
+    .siete
+    {
+        font-size: 27px;
+        display: flex;
+        margin: 0px 0px 0px -13px;
+        justify-content: center;
+    }
+
+    .Albumes_LilNasX
+    {
+        width: 40%;
+        top: 20%;
+    }
+
+    .Albumes
+    {
+        margin-top: 0px;
+        font-size: 40px;
+        text-shadow: none;
+    }
+
+    .cont_LilNasX
+    {
+        width: 43%;
+        height:15%;
+        top: 20%;
+        opacity: 80%;
+    }
+
+    .texto_LilNasX_1
+    {
+        position: absolute;
+        width: 50%;
+        height:30%;
+        opacity: 80%;
+        left:47.3%;
+        top:40%;
+    }
+
+    #header_LilNasX_celular
+    {
+        display: block;
+        width: 110%;
+        height:850px;
+        margin-left: -37px;
+    }
+
+    #header_LilNasX
+    {
+        display: none;
+    }
+
+    .texto_LilNasX_2
+    {
+        margin-left:-50px ;
+        width: 78%;
+        height: 35%;
+    }
+
+    .textoPoliticPriv{
+        text-align: center;
+    }
+
+    ::-webkit-scrollbar {
+        width: 3px; /* Ancho de la barra de desplazamiento */
+        height: 100%;
+        border-radius: 5px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background-color: #2e2d2d; /* Color de fondo de la pista de la barra de desplazamiento */
+        border-radius: 5px;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background-color: #ffffff; /* Color del pulgar (parte arrastrable) de la barra de desplazamiento */
+        border-radius: 3px;
+        width: 3px;
+      }
+
+}
+
+#fondo_canciones
+{
+    margin-top: -1%;
+    width: 130%;
+    background-color: red;
+    height: 130%;
+    z-index: -1;
+}
+
+.todas_las_canciones
+{
+    position: absolute;
+    top: 10%;
+    
+}
+
+h3
+{
+    color: white;
+}
+
+.canciones_fondo
+{
+    width: 180%;
+    height: 150vh;
+    position: absolute;
+    top: 4%;
+    left: -40%;
+    opacity: 50%;
+    z-index: -2;
+}
+
+canciones_fondo1
+{
+    width: 100%;
+    height: 800vh;
+}
+
+.img_cancion
+{
+    border-radius: 100%;
+    width: 20vh;
+    height: 20vh;
+    border: 3px solid black;
+}
+
+.col img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border:3px solid black;
+}
+
+.container 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.video 
+{
+    width: 50px;
+    height: 10px; /* Para que haya 3 videos por fila */
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* estándar */
+}
+
+.container {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .col {
+    position: relative;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  @media (min-width: 576px) {
+    .col {
+      flex: 0 0 15%;
+      max-width: 50%;
+    }
+  }
+
+  @media (min-width: 950px) {
+    .col {
+      flex: 0 0 15%;
+      max-width: 15%;
+    }
+  }
+
+.container_canciones
+{
+    margin-top: 10%;
+    margin-left: 6%;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* estándar */
+}
+
+h3
+{
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4
+{
+    margin-top: -9.5%;
+    color: white;
+    width: 80%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Old
+{
+    font-size: 10px;
+}
+
+.AmIDreaming
+{
+    font-size: 15px;
+}
+
+.body_canciones
+{
+    overflow-x: hidden;
+}
+
+
+.LilNasX_Inicio_Fondo
+{
+    width: 100%;
+    height: 500px;
+    
+
+}
+
+nav
+{
+    overflow: auto;
+}
+
+.LilNasX_Inicio_nav
+{
+    top:none;
+    position: absolute;
+    top:80%;
+    
+}
+
+.canciones_fondo_Inicio
+{
+    width: 100%;
+    height: 94vh;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 80%;
+    z-index: -2;
+}
+
+.bienvenida
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    font-size: 10vh;
+    top: 4%;
+    left: 23%;
+    color: rgb(251, 123, 246);
+    font-weight: bolder;
+}
+
+body_Inicio
+{
+    overflow: auto;
+}
+
+.textito_Bienvenida
+{
+    position: absolute;
+    top:30%;
+    left: 3.5%;
+    padding: 0px 30px 30px 30px;
+    width: 40%;
+    display: flex;
+    height: 40vh;
+    background-color: black;
+    opacity: 50%;
+    font-size: 5vh;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.textito_Bienvenida2
+{
+    position: absolute;
+    top:30%;
+    left: 52.5%;
+    padding: 0px 30px 30px 30px;
+    width: 40%;
+    display: flex;
+    height: 40vh;
+    background-color: black;
+    opacity: 50%;
+    font-size: 5vh;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.logo
+{
+    position: absolute;
+    width: 25vh;
+    height: 27.5vh;
+    top: 30%;
+    left: 39%;
+    z-index: 10;
+}
+
+.link_footer
+{
+    display: flex;
+    justify-content: space-around;
+    height: 25%;
+    width:50%;
+    margin-left: 25%;
+    margin-top: 4%;
+
+}
+
+.fotito_link
+{
+    width: 100%;
+    height: 13vh;
+    background-color: #ffffff;
+    border-radius: 100%;
+    margin-bottom: 10vh;border: #ffffff solid 2px;
+}
+
+.fotito_link_canciones
+{
+    width: 100%;
+    height: 13vh;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: #ffffff solid 2px;
+}
+
+.textoPoliticPriv_canciones
+{
+    text-align: center;
+}
+

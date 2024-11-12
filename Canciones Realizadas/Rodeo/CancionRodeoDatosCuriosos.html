@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil Nas Web / Canciones / Rodeo / Letra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+        window.addEventListener('beforeunload', function () {
+  var audio = document.getElementById('myAudio');
+  audio.pause();
+  localStorage.setItem('audioTime', audio.currentTime);
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var audio = document.getElementById('myAudio');
+  var storedTime = localStorage.getItem('audioTime');
+  if (storedTime) {
+    audio.currentTime = parseFloat(storedTime);
+  }
+  audio.play();
+});
+
+  </script>
+</head>
+<body>
+
+    <div class="navInvisible">
+
+    </div>
+    
+    <nav> 
+
+    <div class="menu_izquierda">
+        <button>  <img src="../.././Proyecto Página/Logo.png" alt="" class="imagen_menu"> </button>
+    </div>
+
+    <div class="menu_derecha">
+        <button>  <a href="../../Canciones.html"><img src="../.././Proyecto Página/CancionesTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/InicioTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/MenuTXT.png" alt="" class="imagen_menu"></a> </button>
+    </div>
+    
+    </nav>
+
+    <header> 
+    
+        <div>    
+            <video controls autoplay loop id="myAudio" class="video_otra_pagina">
+                <source src="../.././Canciones/(y2save.net) Lil Nas X SCOOP ft Doja Cat.mp4" type="video/mp4">
+                <source src="../.././Canciones/(y2save.net) Lil Nas X SCOOP ft Doja Cat.mp4" type="video/webm">
+            </video>
+        </div>
+
+        <div class="table_video">
+            
+            
+            <div class="tabla_arriba">
+                <div class="links">
+                    <div class="boton"> <a href="CancionRodeoVideo.html"><button> VIDEO </button></a> </div>
+                    <div class="boton" > <a href="CancionRodeoLetras.html"><button> LETRA </button> </div>
+                    <div class="boton"> <a><button id="boton_check"> DATOS <br> CURIOSOS </button></a> </div>
+                </div>
+            </div>
+        
+            <div class="tablas_abajo">
+                <div class="foto_cancion">
+
+                    <img src="../.././Fotos/Rodeo.jpg" alt="" class="foto_cancion_"><br>
+                    
+                    <div class="nombreCancion_artistas">
+                        <p> Rodeo <br> LIL NAS X & NAS </p>
+                    </div>
+
+                </div>
+                
+
+                <div class="letra_cancion">
+                    <p>
+                        <div class="datos_curiosos">
+                    
+                            <ul>
+                                <li>
+                                    Es una canción que forma parte del EP7
+                                </li>
+                                <li>
+                                    Es una colaboración entre Lil Nas X y Cardi B
+                                </li>
+                                <li>
+                                    En esta canción hablan sobre una relación entre un chico y una chica.
+                                </li>
+                                <li>
+                                    La canción también tiene otra versión en la que Lil Nas X colabora con el rapero OG Nas, Nas le da un toque distinto a la original, un toque mas de rap que de pop.
+                                </li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+
+          </div>
+        </div>
+
+
+    </header>
+
+
+    <footer>
+        <p class="textoPoliticPriv">
+            © 2023 Sony Music Entertainment | Terms and Conditions|Privacy Policy | How We Use Your Data | Do Not Sell My Personal Information | Your California Privacy Rights|Send Feedback
+        </p>
+        <div class="link_footer">
+            <a href="https://www.instagram.com/lilnasx/" ><img src="../../Proyecto Página/Instagram.png" alt="" class="fotito_link"></a>
+            <a href="https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq" ><img src="../../Proyecto Página/Spotify.png" alt="" class="fotito_link"></a>
+            <a href="https://www.youtube.com/channel/UC_uMv3bNXwapHl8Dzf2p01Q" ><img src="../../Proyecto Página/Youtube.png" alt="" class="fotito_link"></a>
+            <a href="https://www.tiktok.com/@lilnasx?lang=es" ><img src="../../Proyecto Página/TikTok.png" alt="" class="fotito_link"></a>
+            <a href="https://twitter.com/LilNasX" ><img src="../../Proyecto Página/Twitter.png" alt="" class="fotito_link"></a>
+        </div>
+    </footer>
+</body>
+</html>

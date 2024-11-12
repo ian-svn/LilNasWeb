@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil Nas Web / Canciones / Thats What I Want / Letra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+        window.addEventListener('beforeunload', function () {
+  var audio = document.getElementById('myAudio');
+  audio.pause();
+  localStorage.setItem('audioTime', audio.currentTime);
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var audio = document.getElementById('myAudio');
+  var storedTime = localStorage.getItem('audioTime');
+  if (storedTime) {
+    audio.currentTime = parseFloat(storedTime);
+  }
+  audio.play();
+});
+
+  </script>
+</head>
+<body>
+
+    <div class="navInvisible">
+
+    </div>
+    
+    <nav> 
+
+    <div class="menu_izquierda">
+        <button>  <img src="../.././Proyecto Página/Logo.png" alt="" class="imagen_menu"> </button>
+    </div>
+
+    <div class="menu_derecha">
+        <button>  <a href="../../Canciones.html"><img src="../.././Proyecto Página/CancionesTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/InicioTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/MenuTXT.png" alt="" class="imagen_menu"></a> </button>
+    </div>
+    
+    </nav>
+
+    <header> 
+    
+        <div>    
+            <video controls autoplay loop id="myAudio" class="video_otra_pagina">
+                <source src="../.././Canciones/(y2save.net) Lil Nas X THATS WHAT I WANT Official Video .mp4" type="video/mp4">
+                <source src="../.././Canciones/(y2save.net) Lil Nas X THATS WHAT I WANT Official Video .mp4" type="video/webm">
+            </video>
+        </div>
+        <div class="table_video">
+            
+            
+            <div class="tabla_arriba">
+                <div class="links">
+                    <div class="boton"> <a href="CancionThatsWhatIWantVideo.html"><button> VIDEO </button></a> </div>
+                    <div class="boton" > <button id="boton_check"> LETRA </button> </div>
+                    <div class="boton"> <a href="CancionThatsWhatIWantDatosCuriosos.html"><button> DATOS <br> CURIOSOS </button></a> </div>
+                </div>
+            </div>
+        
+            <div class="tablas_abajo">
+                <div class="foto_cancion">
+
+                    <img src="../.././Fotos/ThatsWhatIWant.jpg" alt="" class="foto_cancion_"><br>
+                    
+                    <div class="nombreCancion_artistas">
+                    <p> Thats What I Want <br> LIL NAS X</p>
+                    </div>
+
+                </div>
+                
+
+                <div class="letra_cancion">
+                    <p>
+                        One, two, three, four<br><br>
+
+                        Need a boy who can cuddle with me all night<br>
+                        Keep me warm, love me long, be my sunlight<br>
+                        Tell me lies, we can argue, we can fight<br>
+                        Yeah, we did it before, but we'll do it tonight<br><br>
+
+                        An afro, black boy with the gold teeth<br>
+                        With dark skin, looking at me like he know me<br>
+                        I wonder if he got the G or the B<br>
+                        Let me find out and see, coming over to me, yeah<br><br>
+
+                        These days, I'm way too lonely<br>
+                        I'm missing out, I know<br>
+                        These days, I'm way too alone<br>
+                        And I'm known for giving love away, but<br><br>
+
+                        I want someone who love me<br>
+                        I need someone who needs me<br>
+                        'Cause it don't feel right when it's late at night<br>
+                        And it's just me in my dreams<br>
+                        So I want someone to love, that's what I fucking want<br><br>
+
+                        Look, you know it's harder to find in these times<br>
+                        But I got nothing but love on my mind (my mind)<br>
+                        I need a baby with love in my prime<br>
+                        Need an adversary to my "down to marry"<br><br>
+
+                        Like, tell me, "That's life" when I'm stressing at night<br>
+                        Be like, "You'll be okay", and, "Everything's all right," uh<br>
+                        Let me in that thing, 'cause I'm not wanting anything<br>
+                        But your loving, your body, and a little bit of your brain<br>
+
+                        These days, I'm way too lonely<br>
+                        I'm missing out, I know<br>
+                        These days, I'm way too alone<br>
+                        And I'm known for giving love away, but<br><br>
+
+                        I want someone who love me<br>
+                        I need someone who needs me<br>
+                        'Cause it don't feel right when it's late at night<br>
+                        And it's just me in my dreams<br>
+                        So I want someone to love, that's what I fucking want<br><br>
+
+                        I want (I) someone to love me<br>
+                        I need (I) someone who needs me<br>
+                        'Cause it don't feel right when it's late at night<br>
+                        And it's just me in my dreams<br>
+                        So I want someone to love, that's what I fucking want<br>
+                    </p>
+                </div>
+
+          </div>
+        </div>
+
+
+    </header>
+
+
+    <footer>
+        <p class="textoPoliticPriv">
+            © 2023 Sony Music Entertainment | Terms and Conditions|Privacy Policy | How We Use Your Data | Do Not Sell My Personal Information | Your California Privacy Rights|Send Feedback
+        </p>
+        <div class="link_footer">
+            <a href="https://www.instagram.com/lilnasx/" ><img src="../../Proyecto Página/Instagram.png" alt="" class="fotito_link"></a>
+            <a href="https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq" ><img src="../../Proyecto Página/Spotify.png" alt="" class="fotito_link"></a>
+            <a href="https://www.youtube.com/channel/UC_uMv3bNXwapHl8Dzf2p01Q" ><img src="../../Proyecto Página/Youtube.png" alt="" class="fotito_link"></a>
+            <a href="https://www.tiktok.com/@lilnasx?lang=es" ><img src="../../Proyecto Página/TikTok.png" alt="" class="fotito_link"></a>
+            <a href="https://twitter.com/LilNasX" ><img src="../../Proyecto Página/Twitter.png" alt="" class="fotito_link"></a>
+        </div>
+    </footer>
+</body>
+</html>

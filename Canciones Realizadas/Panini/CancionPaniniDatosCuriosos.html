@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil Nas Web / Canciones/Panini/Datos Curiosos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+        window.addEventListener('beforeunload', function () {
+  var audio = document.getElementById('myAudio');
+  audio.pause();
+  localStorage.setItem('audioTime', audio.currentTime);
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var audio = document.getElementById('myAudio');
+  var storedTime = localStorage.getItem('audioTime');
+  if (storedTime) {
+    audio.currentTime = parseFloat(storedTime);
+  }
+  audio.play();
+});
+
+  </script>
+
+</head>
+<body>
+    
+    <div class="navInvisible">
+
+    </div>
+
+    <nav> 
+
+    <div class="menu_izquierda">
+        <button>  <img src="../.././Proyecto Página/Logo.png" alt="" class="imagen_menu"> </button>
+    </div>
+
+    <div class="menu_derecha">
+        <button>  <a href="../.././Canciones.html"><img src="../.././Proyecto Página/CancionesTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/InicioTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/MenuTXT.png" alt="" class="imagen_menu"></a> </button>
+    </div>
+    
+    </nav>
+
+    <header> 
+    
+        <div>    
+            <video controls autoplay loop id="myAudio" class="video_otra_pagina">
+                <source src="../.././Canciones/Lil Nas X - Panini.mp4" type="video/mp4">
+                <source src="../.././Canciones/Lil Nas X - Panini.mp4" type="video/webm">
+            </video>
+        </div>
+
+
+        <div class="table_video">
+            
+            
+            <div class="tabla_arriba">
+                <div class="links">
+                    <div class="boton"> <a href="CancionPaniniVideo.html"><button> VIDEO </button></a> </div>
+                    <div class="boton" > <a href="CancionPaniniLetras.html"><button> LETRA </button></a> </div>
+                    <div class="boton"> <button id="boton_check"> DATOS <br> CURIOSOS </button> </div>
+                </div>
+            </div>
+        
+            <div class="tablas_abajo">
+                <div class="foto_cancion">
+
+                    <img src="../.././Proyecto Página/header_foto_cancion.png" alt="" class="foto_cancion"><br>
+                    
+                    <div class="nombreCancion_artistas">
+                    <p> PANINI <br> LIL NAS X </p>
+                    </div>
+
+                </div>
+                
+
+                <div class="datos_curiosos">
+                    
+                    <ul>
+                        <li>
+                            Fue publicado en el 21 de Julio de 2019. <br><br>
+                        </li>
+                        <li>
+                            EL esta cancion es el segundo sencillo<br> 
+                            del Ep "7" y fue compuesta en parte por <br>
+                            Kurt Cobain(Cantante de Nirvana).<br><br>
+                        </li>
+
+                        <li>
+                            Logró entrar en el "Billboard Hot 100".<br><br>
+                        </li>
+                        <li>
+                            Se basa en un video futurista donde <br>
+                            Lil Nas protagoniza una persecución a<br>
+                            la chica "panini" y coreo junto a robots.<br><br>
+                        </li>
+                        <li>
+                            El rapero estadounidense "Da Baby" <br>
+                            hizo un remix cover.<br><br>
+                        </li>    
+                        <li> 
+                            Recibió una nominación a los <br>
+                            premios gramis 2020 por mejor<br>
+                            performance de rap.<br>
+                        </li>    
+                    </ul>
+                </div>
+
+          </div>
+        </div>
+    </header>
+
+
+    <footer>
+        <p class="textoPoliticPriv">
+            © 2023 Sony Music Entertainment | Terms and Conditions|Privacy Policy | How We Use Your Data | Do Not Sell My Personal Information | Your California Privacy Rights|Send Feedback
+        </p>
+        <div class="link_footer">
+            <a href="https://www.instagram.com/lilnasx/" ><img src="../../Proyecto Página/Instagram.png" alt="" class="fotito_link"></a>
+            <a href="https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq" ><img src="../../Proyecto Página/Spotify.png" alt="" class="fotito_link"></a>
+            <a href="https://www.youtube.com/channel/UC_uMv3bNXwapHl8Dzf2p01Q" ><img src="../../Proyecto Página/Youtube.png" alt="" class="fotito_link"></a>
+            <a href="https://www.tiktok.com/@lilnasx?lang=es" ><img src="../../Proyecto Página/TikTok.png" alt="" class="fotito_link"></a>
+            <a href="https://twitter.com/LilNasX" ><img src="../../Proyecto Página/Twitter.png" alt="" class="fotito_link"></a>
+        </div>
+    </footer>
+
+    </body>
+</html>

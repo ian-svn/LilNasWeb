@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil Nas Web / Canciones/Montero/Letra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+        window.addEventListener('beforeunload', function () {
+  var audio = document.getElementById('myAudio');
+  audio.pause();
+  localStorage.setItem('audioTime', audio.currentTime);
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var audio = document.getElementById('myAudio');
+  var storedTime = localStorage.getItem('audioTime');
+  if (storedTime) {
+    audio.currentTime = parseFloat(storedTime);
+  }
+  audio.play();
+});
+
+  </script>
+</head>
+<body>
+
+    <div class="navInvisible">
+
+    </div>
+    
+    <nav> 
+
+    <div class="menu_izquierda">
+        <button>  <img src="../.././Proyecto Página/Logo.png" alt="" class="imagen_menu"> </button>
+    </div>
+
+    <div class="menu_derecha">
+        <button>  <a href="../../Canciones.html"><img src="../.././Proyecto Página/CancionesTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/InicioTXT.png" alt="" class="imagen_menu"></a> </button>
+        <button>  <a href=""><img src="../.././Proyecto Página/MenuTXT.png" alt="" class="imagen_menu"></a> </button>
+    </div>
+    
+    </nav>
+
+    <header> 
+    
+        <div>    
+            <video controls autoplay id="myAudio" class="video_otra_pagina">
+                <source src="../.././Canciones/Lil Nas X - MONTERO.mp4" type="video/mp4">
+                <source src="../.././Canciones/Lil Nas X - MONTERO.mp4" type="video/webm">
+            </video>
+        </div>>
+
+        <div class="table_video">
+            
+            
+            <div class="tabla_arriba">
+                <div class="links">
+                    <div class="boton"> <a href="CancionMonteroVideo.html"><button> VIDEO </button></a> </div>
+                    <div class="boton" > <button id="boton_check"> LETRA </button> </div>
+                    <div class="boton"> <a href="CancionMonteroDatosCuriosos.html"><button> DATOS <br> CURIOSOS </button></a> </div>
+                </div>
+            </div>
+        
+            <div class="tablas_abajo">
+                <div class="foto_cancion">
+
+                    <img src="../.././Fotos/MonteroFoto.jpg" alt="" class="foto_cancion_"><br>
+                    
+                    <div class="nombreCancion_artistas">
+                        <p> Montero <br> LIL NAS X</p>
+                    </div>
+
+                </div>
+                
+
+                <div class="letra_cancion">
+                    <p>
+                        I caught it bad yesterday<br>
+                        You hit me with a call to your place
+                        Ain't been out in a while anyway<br>
+                        Was hoping I could catch you throwing smiles in my face<br><br>
+                        Romantic talking? You don't even have to try<br>
+                        You're cute enough to fuck with me tonight<br>
+                        Looking at the table all I see is weed and white<br>
+                        Baby, you living the life, but nigga, you ain't livin' right<br><br>
+                        Cocaine and drinking with your friends<br>
+                        You live in the dark, boy, I cannot pretend<br>
+                        I'm not fazed, only here to sin<br>
+                        If Eve ain't in your garden, you know that you can<br><br>
+                        Call me when you want, call me when you need<br>
+                        Call me in the morning, I'll be on the way<br>
+                        Call me when you want, call me when you need<br>
+                        Call me out by your name, I'll be on the way like<br><br>
+                        Mmm, mmm, mmm, mmm<br>
+                        Mmm, mmm, mmm, mmm<br><br>
+                        Ayy, ayy<br>
+                        I wanna sell what you're buying<br>
+                        I wanna feel on your ass in Hawaii<br>
+                        I want that jet lag from fucking and flying<br>
+                        Shoot a child in your mouth while I'm riding<br><br>
+                        Oh, oh, oh, why me?<br>
+                        A sign of the times every time that I speak<br>
+                        A dime and a nine, it was mine every week<br>
+                        What a time, an incline, God was shining on me<br><br>
+                        Now I can't leave<br>
+                        And now I'm acting hella elite<br>
+                        Never want the niggas that's in my league<br>
+                        I wanna fuck the ones I envy, I envy<br><br>
+                        Cocaine and drinking with your friends<br>
+                        You live in the dark, boy, I cannot pretend<br>
+                        I'm not fazed, only here to sin<br>
+                        If Eve ain't in your garden, you know that you can<br><br>
+                        Call me when you want, call me when you need<br>
+                        Call me in the morning, I'll be on the way<br>
+                        Call me when you want, call me when you need<br>
+                        Call me out by your name, I'll be on the way like<br><br>
+                        Oh, call me by your name (mmm, mmm, mmm)<br>
+                        Tell me you love me in private<br>
+                        Call me by your name (mmm, mmm, mmm)<br>
+                        I do not care if you lying<br><br>
+                        Well, I'm just feeling, mm-uh<br>
+                        I wanna get, mm-uh<br>
+                        I'm in my, into my, uh<br>
+                        I'm mm, mm<br>
+                        I'm still, mm, mm-mm, ooh<br>
+                    </p>
+                </div>
+
+          </div>
+        </div>
+
+
+    </header>
+
+    <footer>
+        <p class="textoPoliticPriv">
+            © 2023 Sony Music Entertainment | Terms and Conditions|Privacy Policy | How We Use Your Data | Do Not Sell My Personal Information | Your California Privacy Rights|Send Feedback
+        </p>
+        <div class="link_footer">
+            <a href="https://www.instagram.com/lilnasx/" ><img src="../../Proyecto Página/Instagram.png" alt="" class="fotito_link"></a>
+            <a href="https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq" ><img src="../../Proyecto Página/Spotify.png" alt="" class="fotito_link"></a>
+            <a href="https://www.youtube.com/channel/UC_uMv3bNXwapHl8Dzf2p01Q" ><img src="../../Proyecto Página/Youtube.png" alt="" class="fotito_link"></a>
+            <a href="https://www.tiktok.com/@lilnasx?lang=es" ><img src="../../Proyecto Página/TikTok.png" alt="" class="fotito_link"></a>
+            <a href="https://twitter.com/LilNasX" ><img src="../../Proyecto Página/Twitter.png" alt="" class="fotito_link"></a>
+        </div>
+    </footer>
+</body>
+</html>
